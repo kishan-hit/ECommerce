@@ -1,7 +1,7 @@
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 
 const ProductDetailsPage = () => {
-    const {id} = useParams();
+    // const {id} = useParams();
     return <p>This is product details page</p>
 };
 
