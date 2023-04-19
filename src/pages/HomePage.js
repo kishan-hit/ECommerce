@@ -7,14 +7,14 @@ import Container from "react-bootstrap/esm/Container";
 
 const HomePage = () => {
     const categories = [
-        "Tablets",
-        "Monitors",
-        "Games",
-        "Printers",
-        "Software",
-        "Cameras",
-        "Books",
-        "Videos",
+        "Fast foods",
+        "Chinese",
+        "North Indian",
+        "South Indian",
+        "Desserts",
+        "Street foods",
+        "Sea foods",
+        "pizza",
     ];
     return (
         <>

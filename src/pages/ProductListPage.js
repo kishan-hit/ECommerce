@@ -28,7 +28,7 @@ const ProductListPage = () => {
                     {Array.from({length: 5}).map((_,idx)=>(
                         <ProductForListComponent 
                             key={idx} 
-                            images={["games","monitors","tablets","games","monitors"]} 
+                            images={["chinese-food","desserts","fast-foods","north-indian","south-indian","pizza","sea-foods","street-foods"]} 
                             idx={idx}
                         />
                     ))}

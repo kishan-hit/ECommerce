@@ -12,12 +12,12 @@ const ProductCarouselComponent = () => {
                     crossOrigin='anonymous'
                     className="d-block w-100"
                     style={{height: "300px", objectFit: "cover"}}
-                    src="/images/carousel/carousel-1.png"
+                    src="/images/carousel/starters.png"
                     alt="First slide"
                 />
                 <Carousel.Caption>
                     <LinkContainer style={cursorP} to='/product-details'>
-                        <h3>Bestseller in laptops category</h3>
+                        <h3>Bestseller</h3>
                     </LinkContainer>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </Carousel.Caption>
@@ -26,13 +26,13 @@ const ProductCarouselComponent = () => {
                 <img
                     className="d-block w-100"
                     style={{height: "300px", objectFit: "cover"}}
-                    src="/images/carousel/carousel-2.png"
+                    src="/images/carousel/main-course.png"
                     alt="Second slide"
                 />
 
                 <Carousel.Caption>
                     <LinkContainer style={cursorP} to='/product-details'>
-                        <h3>Bestseller in books category</h3>
+                        <h3>Bestseller</h3>
                     </LinkContainer>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </Carousel.Caption>
@@ -41,13 +41,13 @@ const ProductCarouselComponent = () => {
                 <img
                     className="d-block w-100"
                     style={{height: "300px", objectFit: "cover"}}
-                    src="/images/carousel/carousel-3.png"
+                    src="/images/carousel/desserts.png"
                     alt="Third slide"
                 />
 
                 <Carousel.Caption>
                     <LinkContainer style={cursorP} to='/product-details'>
-                        <h3>Bestseller in cameras category</h3>
+                        <h3>Bestseller</h3>
                     </LinkContainer>
                     <p>
                         Praesent commodo cursus magna, vel scelerisque nisl consectetur.

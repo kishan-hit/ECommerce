@@ -3,7 +3,7 @@ import { Form } from "react-bootstrap";
 const AttributesFilterComponent = () => {
   return (
     <>
-      {[{ color: ["red", "blue", "green"] }, { ram: ["1 TB", "2 TB"] }].map(
+      {[{ category: ["veg", "non-veg", "vegan"] }, { Delivery: ["Immediate", "Schedule"] }].map(
         (item, idx) => (
           <div key={idx} className="mb-3">
             <Form.Label>

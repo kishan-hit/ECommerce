@@ -16,16 +16,16 @@ const HeaderComponent = () => {
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
                 <LinkContainer to="/">
-                    <Navbar.Brand href="/">BEST ONLINE SHOP</Navbar.Brand>
+                    <Navbar.Brand href="/">FRESH FOOD, FAST</Navbar.Brand>
                 </LinkContainer>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                         <InputGroup>
                             <DropdownButton id="dropdown-basic-button" title="All">
-                                <Dropdown.Item>Electronics</Dropdown.Item>
-                                <Dropdown.Item>Cars</Dropdown.Item>
-                                <Dropdown.Item>Books</Dropdown.Item>
+                                <Dropdown.Item>Starters</Dropdown.Item>
+                                <Dropdown.Item>Main course</Dropdown.Item>
+                                <Dropdown.Item>Desserts</Dropdown.Item>
                             </DropdownButton>
                             <Form.Control type="text" placeholder="Search in shop ..." />
                             <Button variant="warning">

@@ -38,20 +38,20 @@ import {
               <Image
                 crossOrigin="anonymous"
                 fluid
-                src="/images/games-category.png"
+                src="/images/chinese-food.jpg"
               />
             </div>
             <br />
             <div id="second">
-              <Image fluid src="/images/monitors-category.png" />
+              <Image fluid src="/images/fast-foods.jpg" />
             </div>
             <br />
             <div id="third">
-              <Image fluid src="/images/tablets-category.png" />
+              <Image fluid src="/images/north-indian.jpg" />
             </div>
             <br />
             <div id="fourth">
-              <Image fluid src="/images/games-category.png" />
+              <Image fluid src="/images/south-indian.jpg" />
             </div>
             <br />
           </Col>
