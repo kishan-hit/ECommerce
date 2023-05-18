@@ -30,7 +30,7 @@ const buttons = (cartSubtotal, cartItems, orderId, updateStateAfterOrder) => {
                             value: cartSubtotal,
                             breakdown: {
                                 item_total: {
-                                    currency_code: "USD",
+                                    currency_code: "INR",
                                     value: cartSubtotal,
                                 }
                             }
@@ -39,7 +39,7 @@ const buttons = (cartSubtotal, cartItems, orderId, updateStateAfterOrder) => {
                             return {
                                name: product.name,
                                 unit_amount: {
-                                   currency_code: "USD", 
+                                   currency_code: "INR", 
                                    value: product.price,
                                 },
                                 quantity: product.quantity,

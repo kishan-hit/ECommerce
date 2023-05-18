@@ -176,7 +176,7 @@ const AnalyticsPageComponent = ({
               allowDuplicatedCategory={false}
             />
             <YAxis
-              label={{ value: "REVENUE $", angle: -90, position: "insideLeft" }}
+              label={{ value: "REVENUE Rs.", angle: -90, position: "insideLeft" }}
             />
             <Tooltip />
             <Legend verticalAlign="top" height={36} />

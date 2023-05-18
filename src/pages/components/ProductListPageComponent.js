@@ -45,6 +45,7 @@ const ProductListPageComponent = ({ getProducts, categories }) => {
     } else {
       setAttrsFilter([]);
     }
+    // eslint-disable-next-line
   }, [categoryName, categories]);
 
   useEffect(() => {
@@ -64,6 +65,7 @@ const ProductListPageComponent = ({ getProducts, categories }) => {
         }
       });
     }
+    // eslint-disable-next-line
   }, [categoriesFromFilter, categories]);
 
   useEffect(() => {
